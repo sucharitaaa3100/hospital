@@ -1,0 +1,278 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: azure;
+}
+
+html{
+  
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+  
+}
+.container{
+    background-color: rgb(24, 13, 167);
+    height:fit-content;
+}
+.container li{
+    float:right;
+    color: white;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+
+.container ul{
+    overflow:auto;
+    
+}
+.container li a{
+    text-decoration: none;
+    color:white;
+}
+.container li a:hover{
+color:black;
+
+}
+.logo{
+    width: 160px;
+    height: 50px;
+    float: left;
+   
+}
+.navbar{
+    background-color: white;
+    
+   height: 50px;
+   
+}
+.navbar ul{
+    padding-top: 20px;
+    text-align: center;
+    
+}
+.navbar li{
+display: inline-block;
+
+}
+.navbar li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding: 20px 50px;
+    text-decoration: none;
+    text-shadow: 1px 2px 2px #3d3c3c;
+    color:black;
+}
+hr{
+    color: white;
+}
+.navbar li a:hover{
+    color: white;
+    background-color: black;
+    text-transform: uppercase ;
+    text-decoration: underline;
+   text-decoration-color: rgb(233, 230, 236);
+   cursor: pointer;
+}
+.part1{
+  min-height: 100vh;
+  background-image:url(img.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+ align-items: center;
+ 
+ }
+ .firsth{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 250%;
+ }
+ section{
+    padding-top: 100px;
+ }
+ @keyframes tomo {
+    from {color: blue;}
+    to {color: black;}
+ }
+ #tom{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+    font-size: 175%;
+    font-style: oblique;
+    color: blue;
+    text-shadow: 1px 2px 2px #3d3c3c;
+    animation: tomo 2s ease-in-out infinite reverse;
+   
+ }
+ @keyframes tomor{
+    from {color: black;}
+    to {color: red;}
+ }
+ #tomor{
+    animation: tomor 0.5s infinite ease-in-out alternate-reverse;
+    color: black;
+    
+
+ }
+ .part2{
+    min-height: 100vh;
+    background-image:url(img2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: inline-flexbox;
+  }
+   .part2 h2{
+    text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 175%;
+    padding-bottom: 3%;
+   }
+   
+   div label{
+    font-size: 80%;
+    background-color: azure;
+    text-shadow: 6px #3d3c3c;
+   }
+   .part2 div{
+    text-align: center;
+    font-size: 175%;
+  padding-top: 5%;
+    padding-bottom: 5%;
+    border: 5px solid;
+    border-radius: 10%;
+    margin:auto;
+    width: 50%;
+    padding:10px;
+    background-color: rgba(251, 253, 252, 0.5);
+   
+   }
+   select {
+    width: 300px;
+  }
+  
+  select option {
+    width: 300px;
+  }
+  #name{
+    width: 300px;
+  }
+  #rno{
+    width: 300px;;
+  }
+  #submit{
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .gallery{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 300%;
+    text-decoration: underline;
+    text-shadow:5px 6px 5px #3d3c3c ;
+  }
+  .item{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+ .cont2{
+    padding-top:70px;
+    padding-left:140px;
+    padding-bottom: 1000px;
+    padding-right: 5%;
+   }
+ 
+ .item{ 
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+ }
+ 
+ .c{
+    padding-left: 32%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+ }
+ .imga{
+    border: 3px solid black;
+    padding: 20px;
+ }
+ .foot{
+    background-color: rgb(11, 11, 82);
+    padding-bottom: 10px;
+   
+ }
+ .last{
+  padding-left: 80px;
+  padding-right: 80px;
+  
+ }
+ .latest{
+  font-size: 350%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  text-decoration: underline;
+ }
+ .cont3 li{
+  list-style: none;
+  padding-top: 30px;;
+ }
+ .cont3 li a{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 150%; 
+  text-decoration: none;
+ }
+ .cont3 li a:hover{
+color: black;
+background-color: white;
+font-size: 175%;
+transition: 0.2s linear;
+ }
+ .foot h4{
+  font-size: 150%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+ padding-top: 40px;
+ }
+ 
+ .follow li{
+  list-style: none;
+  display: inline-block;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+ }
+ #icon1{
+  color:white;
+  font-size: 20px;
+  
+ }
+ #icon2{
+  color:white;
+  font-size: 20px;
+ 
+ }
+ #icon3{
+  color:white;
+  font-size: 20px;
+ 
+ }
+ 
+ 
